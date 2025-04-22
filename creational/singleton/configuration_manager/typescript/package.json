@@ -1,0 +1,27 @@
+{
+  "name": "singleton-pattern-ts",
+  "version": "1.0.0",
+  "description": "Singleton Pattern Example in TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node main.ts",
+    "test": "jest",
+    "prestart": "npm run build"
+  },
+  "keywords": [
+    "design-patterns",
+    "singleton",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.12.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
