@@ -75,7 +75,6 @@ obj/
 *.test
 *.out
 vendor/
-*.mod
 *.sum
 go.sum
 go.work.sum

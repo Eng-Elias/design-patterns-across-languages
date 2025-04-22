@@ -1,0 +1,3 @@
+module singleton_pattern_configuration_manager_go
+
+go 1.24
