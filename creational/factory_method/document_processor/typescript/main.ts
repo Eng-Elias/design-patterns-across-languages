@@ -26,9 +26,11 @@ async function main() {
   // Define sample data
   const reportTitle = "Quarterly Report Q1 2025";
   const reportContent = [
-    "TypeScript Report: Summarizing Q1 activities.",
-    "Performance metrics show upward trends.",
-    "New marketing initiative 'TypeSafe Future' launched.",
+    "This report summarizes the key activities and results for the first quarter.",
+    "Sales Performance: Met targets, with significant growth in the North region.",
+    "Marketing Campaigns: Launched 'Spring Forward' initiative, results pending.",
+    "Product Development: Version 2.1 of the flagship product entered beta testing.",
+    "Financial Overview: Stable revenue, slight increase in operational costs.",
   ];
   const outputDirectory = "output_files";
   const baseFilename = "quarterly_report_q1";
