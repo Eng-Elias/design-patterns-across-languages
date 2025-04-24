@@ -16,6 +16,7 @@ Thumbs.db
 *.zip
 *.tar
 *.orig
+output_files/
 
 # ====================
 # Python
