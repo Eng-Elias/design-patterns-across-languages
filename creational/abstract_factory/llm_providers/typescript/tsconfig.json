@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    /* Base Options: */
+    "esModuleInterop": true,             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "skipLibCheck": true,                /* Skip type checking all .d.ts files. */
+    "target": "ES2016",                   /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    // "allowJs": true,                  /* Allow JavaScript files to be a part of your program. Use this when migrating JS to TS. */
+    // "resolveJsonModule": true,        /* Enable importing .json files */
+    // "moduleDetection": "force",       /* Control what method is used to detect module-format JS files. */
+    "isolatedModules": true,           /* Ensure that each file can be safely transpiled without relying on other imports. */
+    // "verbatimModuleSyntax": true,     /* Do not transform or elide any imports or exports not marked as type-only, ensuring consistency. */
+    // "allowSyntheticDefaultImports": true, /* Allow 'import x from y' when a module doesn't have a default export. */
+
+    /* Strict Type Checking Options: */
+    "strict": true,                      /* Enable all strict type-checking options. */
+    "noImplicitAny": true,             /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    // "strictNullChecks": true,         /* When type checking, take into account 'null' and 'undefined'. */
+    // "strictFunctionTypes": true,      /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
+    // "strictBindCallApply": true,      /* Check that the arguments for 'bind', 'call', and 'apply' methods match the original function. */
+    // "strictPropertyInitialization": true, /* Check for class properties that are declared but not set in the constructor. */
+    // "noImplicitThis": true,           /* Enable error reporting when 'this' is given the type 'any'. */
+    // "useUnknownInCatchVariables": true, /* Default catch clause variables as 'unknown' instead of 'any'. */
+    // "alwaysStrict": true,             /* Ensure 'use strict' is always emitted. */
+
+    /* Completeness */
+    // "skipDefaultLibCheck": true,      /* Skip type checking .d.ts files that are included with TypeScript. */
+
+    /* Module Options: */
+    "module": "CommonJS",                /* Specify what module code is generated. */
+    "outDir": "./dist",                  /* Specify an output folder for all emitted files. */
+    // "rootDir": "./",                /* Specify the root folder within your source files. */
+    "baseUrl": ".",                    /* Specify the base directory to resolve non-relative module names. */
+    // "paths": {},                      /* Specify a set of entries that re-map imports to additional lookup locations. */
+
+    /* Emit Options: */
+    // "declaration": true,              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    // "declarationMap": true,           /* Create sourcemaps for d.ts files. */
+    // "sourceMap": true,                /* Create source map files for emitted JavaScript files. */
+
+  },
+  "include": [
+    "*.ts" // Include all .ts files in the current directory
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "*.test.ts" // Exclude test files from the main build if desired (Jest handles them)
+  ]
+}

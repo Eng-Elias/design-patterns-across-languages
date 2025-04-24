@@ -1,0 +1,28 @@
+{
+  "name": "abstract-factory-llm-providers-ts",
+  "version": "1.0.0",
+  "description": "Abstract Factory pattern example for LLM providers in TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node main.ts",
+    "start:js": "npm run build && node dist/main.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "design-patterns",
+    "abstract-factory",
+    "typescript",
+    "llm"
+  ],
+  "author": "Eng-Elias",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
