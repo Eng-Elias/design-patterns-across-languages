@@ -14,8 +14,8 @@
     "singleton",
     "typescript"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Eng-Elias",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^20.12.12",
