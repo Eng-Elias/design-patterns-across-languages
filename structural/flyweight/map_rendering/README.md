@@ -103,5 +103,6 @@ npm test
 
 ```bash
 cd go
+go mod tidy
 go test -v ./...
 ```
