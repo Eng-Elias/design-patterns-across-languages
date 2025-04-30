@@ -1,0 +1,28 @@
+{
+  "name": "structural-flyweight-map-rendering-ts",
+  "version": "1.0.0",
+  "description": "Flyweight Design Pattern Example (Map Rendering) in TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "design-patterns",
+    "structural",
+    "flyweight",
+    "typescript",
+    "map-rendering"
+  ],
+  "author": "Eng-Elias",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.14.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
