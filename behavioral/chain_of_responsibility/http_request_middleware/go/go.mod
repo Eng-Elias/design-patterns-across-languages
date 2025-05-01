@@ -1,0 +1,4 @@
+module chain_of_responsibility_pattern_http_request_middleware_go
+
+go 1.24
+
