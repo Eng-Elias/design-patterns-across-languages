@@ -4,7 +4,7 @@ import (
 	"fmt"
 	// "time" // No longer needed
 
-	cr "github.com/Eng-Elias/design-patterns-across-languages/behavioral/mediator/chat_room/go/chat_room"
+	cr "mediator_pattern_chat_room_go/chat_room"
 )
 
 func main() {

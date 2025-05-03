@@ -1,3 +1,3 @@
-module github.com/Eng-Elias/design-patterns-across-languages/behavioral/mediator/chat_room/go
+module mediator_pattern_chat_room_go
 
-go 1.21
+go 1.24
