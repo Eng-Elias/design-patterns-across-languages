@@ -1,0 +1,3 @@
+module iterator_pattern_data_stream_processor_go
+
+go 1.24
