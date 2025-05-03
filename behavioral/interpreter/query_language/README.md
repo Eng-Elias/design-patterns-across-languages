@@ -21,15 +21,18 @@ The implementation parses these expressions into an abstract syntax tree of expr
 
 ## Setup
 
+Instructions assume you are in the `behavioral/interpreter/query_language` directory.
+
 ### Python
 
 ```bash
-# No additional dependencies required
+# No specific setup required, uses standard libraries (abc, unittest).
 ```
 
 ### TypeScript
 
 ```bash
+# Install Node.js/npm if you haven't already.
 cd typescript
 npm install
 ```
@@ -37,23 +40,26 @@ npm install
 ### Go
 
 ```bash
-cd go
-go mod tidy
+# Ensure Go is installed.
+# The go.mod file defines the module.
 ```
 
 ## How to Run
 
+Instructions assume you are in the `behavioral/interpreter/query_language` directory.
+
 ### Python
 
 ```bash
-python python/main.py
+cd python
+python main.py
 ```
 
 ### TypeScript
 
 ```bash
 cd typescript
-npx ts-node main.ts
+npm start
 ```
 
 ### Go
@@ -65,10 +71,13 @@ go run main.go
 
 ## How to Test
 
+Instructions assume you are in the `behavioral/interpreter/query_language` directory.
+
 ### Python
 
 ```bash
-python -m unittest python/test_query_language.py
+cd python
+python -m unittest test_query_language.py
 ```
 
 ### TypeScript
