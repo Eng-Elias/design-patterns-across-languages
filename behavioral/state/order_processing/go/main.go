@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"order_processing_pattern_go/order_processing" // Import our local package
+	"state_pattern_order_processing_go/order_processing" // Import our local package
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	// Import the local package using the module path
-	event_monitoring "event_monitoring_pattern_go/event_monitoring"
+	event_monitoring "observer_pattern_event_monitoring_go/event_monitoring"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module order_processing_pattern_go
+module state_pattern_order_processing_go
 
 go 1.24
 
