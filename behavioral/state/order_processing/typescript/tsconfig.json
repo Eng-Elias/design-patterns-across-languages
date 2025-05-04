@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /* Base Options: */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2016",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    /* If NOT transpiling with webpack/babel, consider adding:
+       "module": "commonjs", */
+    "module": "NodeNext", // Use NodeNext for modern Node.js features like top-level await
+    "outDir": "dist",
+    "sourceMap": true,
+
+    /* Jest Configuration */
+    "types": ["node", "jest"]
+  },
+  "include": ["**/*.ts"], // Include all .ts files in the project
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and the output directory
+}
