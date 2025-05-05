@@ -23,7 +23,7 @@ export class ComplexityVisitor implements Visitor {
   visitFunctionDefinition(element: FunctionDefinitionNode): void {
     this.complexityScore += 1; // Count function definition
     // Explicitly traverse the function body
-    element.body.forEach(stmt => stmt.accept(this));
+    element.body.forEach((stmt) => stmt.accept(this));
   }
 
   visitVariableDeclaration(element: VariableDeclarationNode): void {
@@ -42,8 +42,8 @@ export class ComplexityVisitor implements Visitor {
     this.complexityScore += 1; // Each 'if' adds a decision point/path
     // Explicitly traverse the condition and branches
     element.condition.accept(this);
-    element.thenBranch.forEach(stmt => stmt.accept(this));
-    element.elseBranch?.forEach(stmt => stmt.accept(this)); // Visit else branch if exists
+    element.thenBranch.forEach((stmt) => stmt.accept(this));
+    element.elseBranch?.forEach((stmt) => stmt.accept(this)); // Visit else branch if exists
   }
 
   visitExpressionStatement(element: ExpressionStatementNode): void {
